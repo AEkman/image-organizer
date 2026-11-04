@@ -1,0 +1,15 @@
+root = "."
+tmp_dir = "tmp"
+[build]
+cmd = "go build -o ./tmp/image-organizer ."
+entrypoint = ["./tmp/image-organizer"]
+include_ext = ["go", "m", "html", "css", "js"]
+exclude_dir = ["tmp", "bin", "tools", ".git"]
+delay = 200
+stop_on_error = true
+[proxy]
+enabled = false
+proxy_port = 8090
+app_port = 8080
+[misc]
+clean_on_exit = true

@@ -1,0 +1,27 @@
+/tmp/
+/bin/
+.DS_Store
+__pycache__/
+
+# Private local usage evidence and session logs
+/spendage.md
+/.codex/
+*.jsonl
+*.log
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Editor state
+/.idea/
+/.vscode/
+*.swp
+*.swo
