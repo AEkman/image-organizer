@@ -4,6 +4,8 @@ A local, keyboard-driven image browser for macOS. Review photos, compare similar
 
 Images stay on your computer. The app runs a Go server on `127.0.0.1:8080` and displays its interface in your browser; no cloud service or account is required.
 
+![Image organizer folder browser with keyboard controls and folder tiles](image-organizer-screenshot.png)
+
 ## Requirements
 
 - macOS with Xcode Command Line Tools (`xcode-select --install`). Native Trash handling uses Foundation through cgo.
